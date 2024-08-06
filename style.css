@@ -13,14 +13,63 @@ h1{
     font-size: 45px;
 }
 .boxes{
-    background-color: white;
-    width: 420px;
-    height: 420px;
-}
-#b1{
     background-color: black;
-    width: 140px;
-    height: 140px;
-    border: thick 10px;
-    border-color: blue;
+    width: 410px;
+    height: 410px;
+    position: relative;
+    font-size: 100px;
+    color: black;
+}
+.box{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+#b2{
+    top: 140px;
+}
+#b3{
+    top: 280px;
+}
+#b4{
+    left: 140px;
+}
+#b5{
+    left: 140px;
+    top: 140px;
+}
+#b6{
+    left: 140px;
+    top: 280px;
+}
+#b7{
+    left: 280px;
+}
+#b8{
+    left: 280px;
+    top: 140px;
+}
+#b9{
+    left: 280px;
+    top: 280px;
+}
+#score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 750px;
+    font-size: larger;
+    margin-top: 210px;
+}
+#alerts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 825px;
+    font-size: xx-large;
+    margin-top: -350px;
 }
